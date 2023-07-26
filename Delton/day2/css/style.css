@@ -1,0 +1,44 @@
+.color-blue{
+    color : blue;
+    font-weight: bold;
+}
+#borderblue {
+    border:1px solid blue;
+    padding-top:15px;
+    padding-bottom:5px;
+    
+}
+
+#borderblueheading,h2{
+    color:blue;
+}
+.col-md-2{
+    width:49%;
+    float: left;
+    margin-right:2px;
+    
+}
+.formcontainer{
+    padding-left: 10px;
+}
+input[type='text']{
+    width:30%;  
+}
+label{
+    
+    display: inline-block;
+    width:13%;
+}
+@media screen and  (max-width: 520px){
+    .col-md-2{
+        width:100%;        
+    }
+    label{
+        width:30%;
+    }
+}
+@media screen and (min-width: 520px) and (max-width: 820px){
+    label{
+        width:20%;
+    }
+}

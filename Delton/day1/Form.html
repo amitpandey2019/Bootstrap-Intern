@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="icon" type="image/x-icon" href="https://asq.org.in/wp-content/themes/asq/favicon.ico" />
+        <meta name="keywords" content="HTML, CSS, JAVASCRIPT, PHP, BOOTSTRAP, HEADING, FAVICON" >
+        <meta name="description" content="This is my first program in login form" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <style>
+            label { 
+                color: blue;
+                font-weight: bold;
+            }
+            #borderblue {
+                border: 1px solid blue;
+                padding-top: 2px;
+                margin-bottom: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>   
+            <h1 style="color: red;">Login Form</h1>
+            <form action="" method="post" id="loginform" class="loginform">
+                <label for="Username">Username</label>
+            <input type="text" placeholder="Username" name="Username" /><br></br>
+            <label for="">Password</label>
+            <input type="password" placeholder="Type Your Password" name="password" /><br></br>
+            <label for="">Email</label>
+            <input type="email" placeholder="Type Your Email" name="Email" /><br></br>
+            <label for="">Number</label>
+            <input type="number" placeholder="Type Your Number" name="Number" /><br></br>
+            <input type="radio" name="gander" value="Male">Male
+            <input type="radio" name="gander" value="FeMale">FeMale
+            <br><br>
+            <input type="checkbox" name="hobbies" value="cricket">Cricket
+            <input type="checkbox" name="hobbies" value="volleyball">Volleyball
+            <input type="checkbox" name="hobbies" value="football">Football
+            <br><br><select name="country">
+                <option value="">Select country</option>
+                <option value="India">India</option>
+                <option value="SriLanka">SriLanka</option>
+                <option value="Usa">Usa</option>
+            </select>
+        <br><br>
+        <input type="submit" name="formsubmit" value="SUBMIT" />
+        <input type="button" name="formbutton" value="BUTTON" />
+        <br><br>
+
+        <button name="formsubmitt1">Submit Button Container</button>
+        <button type="button" name="formsubmitt2">Button Container</button>
+        <br><br>
+        </center>
+    </body>
+</html>
